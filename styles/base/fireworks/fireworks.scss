@@ -1,0 +1,51 @@
+.header {
+    background: url("../../../images/fireworks/bg1big.png") no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+.advantages {
+    background: url("../../../images/fireworks/bg2big.png") center no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.review {
+    background: url("../../../images/fireworks/bg3big.png") no-repeat center;
+    margin: auto;
+    background-size: cover;
+}
+.curtain {
+    background: url("../../../images/fireworks/bg4big.png") center no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.pop-up_card_img {
+    background-image: url(../../../images/variable/fireworks-buy.png);
+}
+.pop-up_second_card_img {
+    background-image: url(../../../images/variable/fireworks-buy.png);
+}
+
+.advantages_block__img {
+    background-color: #b93c05;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .header {
+        background: url("../../../images/fireworks/bg1small.png") no-repeat
+            center;
+        background-size: cover;
+        margin: auto;
+    }
+    .review {
+        background: url("../../../images/fireworks/bg3small.png") no-repeat
+            center;
+        margin: auto;
+        background-size: cover;
+    }
+    .advantages_block__img {
+        background-color: transparent;
+    }
+}
